@@ -1,2 +1,2 @@
-# tweepy_experiments
+# twython_experiments
 Experimenting with tweepy
