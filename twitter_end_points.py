@@ -54,14 +54,13 @@ class Twitter:
 
 
 if __name__ == "__main__":
-    consumer_key = "rb2YySEaGBJgWrXov54FMdsdZ"
-    consumer_secret = "rXqcQ1WDrbx1HLIGbZ46FQq8X7hLBDSfx7ryI0zaCGQGv0ogSL"
-    access_token = "1087594166769594368-irKDVWtpq0NolupqwRHp4TsjoMe1Wz"
-    access_token_secret = "wu451rkJiOMWL0fh5FzBM6WDW6XtI43MSBRno67NJoWvO"
+    consumer_key = ""
+    consumer_secret = ""
+    access_token = ""
+    access_token_secret = ""
     twitter = Twitter(consumer_key,consumer_secret,access_token,access_token_secret)
     # recipient_screen_name = input("enter the user you want to send to!\n")
     # message = input("type your message you want to send\n")
-    # recipient_screen_name = "ParasharaRamesh"#"shilpir98"
     # user = twitter.get_user_object(recipient_screen_name)
     # print("the user is",user)
     e = twitter.follow("ashwinravi99")
