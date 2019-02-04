@@ -2,10 +2,10 @@ from twitter_end_points import Twitter
 from flask import Flask, redirect, url_for, request,jsonify,json
 app = Flask(__name__)
 # app.url_map.strict_slashes = False
-consumer_key = "rb2YySEaGBJgWrXov54FMdsdZ"
-consumer_secret = "rXqcQ1WDrbx1HLIGbZ46FQq8X7hLBDSfx7ryI0zaCGQGv0ogSL"
-access_token = "1087594166769594368-irKDVWtpq0NolupqwRHp4TsjoMe1Wz"
-access_token_secret = "wu451rkJiOMWL0fh5FzBM6WDW6XtI43MSBRno67NJoWvO"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 
 @app.route('/unfollow',methods = ['POST'])
 def unfollow():
