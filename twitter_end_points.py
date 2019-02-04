@@ -62,14 +62,13 @@ class Twitter:
 
 
 if __name__ == "__main__":
-    consumer_key = "rb2YySEaGBJgWrXov54FMdsdZ"
-    consumer_secret = "rXqcQ1WDrbx1HLIGbZ46FQq8X7hLBDSfx7ryI0zaCGQGv0ogSL"
-    access_token = "1087594166769594368-irKDVWtpq0NolupqwRHp4TsjoMe1Wz"
-    access_token_secret = "wu451rkJiOMWL0fh5FzBM6WDW6XtI43MSBRno67NJoWvO"
+    consumer_key = ""
+    consumer_secret = ""
+    access_token = ""
+    access_token_secret = ""
     twitter = Twitter(consumer_key,consumer_secret,access_token,access_token_secret)
 
     #for getting user object
-    # recipient_screen_name = "ParasharaRamesh"#"shilpir98"
     # user = twitter.get_user_object(recipient_screen_name)
     # print("the user is",user)
 
@@ -79,11 +78,11 @@ if __name__ == "__main__":
     # event = twitter.send_DM(recipient_screen_name,message)
 
     #for following a user
-    # e = twitter.follow("ashwinravi99")
+    # e = twitter.follow("")
     # print("done....",e)
     
     #for unfollowing a user
-    to_unfollow = "testacc22231314"
+    to_unfollow = ""
     e = twitter.unfollow(to_unfollow)
     print("you successfully unfollowed user:",to_unfollow)
     print("unfollow event is ",e)
